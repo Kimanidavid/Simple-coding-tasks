@@ -27,7 +27,7 @@ print(df.info())
 print(df.describe())
 
 #check correlation(the relationship btwn each columnin the data set)
-#print(df.corr(2))
+print(df.corr(2))
 
 #check missing values(dataset is clean and contains no missing values)
 print(df.isnull().sum())
